@@ -1,0 +1,173 @@
+
+*{
+  margin: 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo {
+    margin-left: -70px;
+    display: flex;
+    flex-direction: column;
+
+}
+.logotipo {
+    margin-left: 30px;
+}
+h1 {
+    margin-left: 35px;
+}
+.botoes{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.search-container{
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+.container {
+    margin-left: -80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+      
+  .btn-text-top {
+    background-color: #f5f6fa;
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 15px 50px 15px 30px;
+    border-radius: 20px;
+    width: 100%!important;
+    height: 42px;
+    font-weight: 300;
+    color: #8795a2;
+  }
+      
+  .btn-buscar-top {
+    width: 20px!important;
+    height: 22px;
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+    cursor: pointer!important;
+    border: none;
+    transform: translateY(-50%);
+    padding: 0;
+    position: relative;
+    top: -35px;
+    left: 280px;
+  }
+  .comidacompra{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+  .nomezinho {
+    font-size: 20px;
+    color: gray;
+    margin-top: -25px;
+    
+  }
+  .preco {
+    text-decoration: line-through;
+    color: gray;
+
+  }
+
+  .precos {
+    display: flex;
+   flex-direction: row;
+   gap: 10px;
+   margin-top: 10px;
+   font-size: 20px;
+
+  }
+  
+  main{
+    flex-direction: row;
+    
+  }
+
+  .paidascomidas{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .Brownie {
+    margin-top: 50px;
+    
+  }
+  .btnComprar{
+    width: 300px;
+    height: 30px;
+    background: rgb(168, 160, 160);
+    color:BLACK;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.container2 {
+  margin-left: -80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  justify-content: left;
+  margin-left: 4px;
+  flex-direction: column;
+  
+}
+.btn-text-top2 {
+  background-color: #f5f6fa;
+  border: 1px solid rgba(255, 255, 255, .1);
+  padding: 15px 50px 15px 30px;
+  border-radius: 20px;
+  width: 87%;
+  height: 80px;
+  font-weight: 300;
+  color: #8795a2;
+  margin-top: 15px;
+}
+.comentario{
+  margin-top: -20px;
+  display: flex;
+  font-size: 15px;
+}
+.nomecompra {
+  margin-left: -35px;
+}
+input::placeholder .btn-text-top2 {
+  background-color: black;
+  background: black;
+}
+footer {
+  display: flex;
+  background-color:rgba(154, 154, 154, 0.527);
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  margin-top: 200px;
+
+}
