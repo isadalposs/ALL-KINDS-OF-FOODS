@@ -1,0 +1,151 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo {
+    margin-left: -70px;
+    display: flex;
+    flex-direction: column;
+
+}
+.logotipo {
+    margin-left: 30px;
+}
+h1 {
+    margin-left: 35px;
+}
+.botoes{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.search-container{
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .btn-buscar-top {
+    width: 20px!important;
+    height: 22px;
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+    cursor: pointer!important;
+    border: none;
+    transform: translateY(-50%);
+    padding: 0;
+    position: relative;
+    top: -22px;
+    left: 210px;
+  }
+   
+body {
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+}
+
+.esquerda {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: start;
+}
+
+.esquerda h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F3DC06;
+    font-size: xxx-large;
+}
+
+#quemSomos {
+    background-color: #FBC400;
+    border-radius: 30px;
+
+    border: 2px solid black;
+
+    font-size: large;
+
+    width: 460px;
+
+    margin-left: 64px;
+}
+
+.direita {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.perfil{
+    display: flex;
+    justify-content:center
+}
+
+
+
+
+.containerQS {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+      
+  .btn-text-topQS {
+    background-color: #f5f6fa;
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 15px 50px 15px 30px;
+    border-radius: 20px;
+    width: 100%!important;
+    height: 42  px;
+    font-weight: 300;
+    color: #8795a2;
+  }
+  footer {
+    display: flex;
+    background-color:rgba(154, 154, 154, 0.527);
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+body {
+    height: 100%;
+}
+      
+
+
+
+
