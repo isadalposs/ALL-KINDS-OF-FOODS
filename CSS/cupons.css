@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.titulo {
+    margin-left: -70px;
+    display: flex;
+    flex-direction: column;
+
+}
+.logotipo {
+    margin-left: 30px;
+}
+h1 {
+    margin-left: 35px;
+}
+.botoes{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-top: 18px;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.inicio:hover{
+    background-color: rgb(225, 193, 98);
+    border-radius: 5px;
+}
+.produto:hover{
+    background-color: rgb(225, 193, 98);
+    border-radius: 5px;
+}
+.cupons:hover {
+    background-color: rgb(225, 193, 98);
+    border-radius: 5px;
+}
+
+
+.quemsomos:hover{
+    background-color: rgb(225, 193, 98);
+    border-radius: 5px;
+}
+
+.faleconosco:hover{
+    background-color: rgb(225, 193, 98);
+    border-radius: 5px;
+}
+
+/* FORMULARIO DE BUSCA - INICIO */
+.search-container{
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+.container {
+    margin-left: -80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+      
+  .btn-text-top {
+    background-color: #f5f6fa;
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 15px 50px 15px 30px;
+    border-radius: 20px;
+    width: 100%!important;
+    height: 42px;
+    font-weight: 300;
+    color: #8795a2;
+  }
+      
+  .btn-buscar-top {
+    width: 20px!important;
+    height: 22px;
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+    cursor: pointer!important;
+    border: none;
+    transform: translateY(-50%);
+    padding: 0;
+    position: relative;
+    top: -35px;
+    left: 280px;
+  }
+  /* FORMULARIO DE BUSCA - FINAL */
+
+.btnVerComidas{
+    width: 300px;
+    height: 30px;
+    background: white;
+    border: 1px solid red;
+    color:BLACK;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input{
+    width: 400px;
+    border-radius: 10px;
+    height: 20px;
+    
+
+
+}
+
+main{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 40px;
+    padding-left: 40px;
+    
+}
+.cupom1, .cupom2, .cupom4, .cupom5 {
+
+    background-color: #a6a1a1;
+    width: 500px;
+    height: 220px;
+    display: flex;
+    border-radius: 10px;
+    justify-content:space-around;
+    align-items: center;
+    color: aliceblue;
+    flex-direction: column;
+    
+
+    
+    
+    
+}
+
+.cupom3 {
+    background-color: #a6a1a1;
+    width: 200px;
+    height: 220px;
+    display: flex;
+    border-radius: 10px;
+    
+    color: aliceblue;
+    flex-direction: column;
+    
+    
+}
+
+
+.cupom6 {
+    background-color:  #a6a1a1;
+    width: 200px;
+    height: 220px;
+    display: flex;
+    border-radius: 10px;
+    color: aliceblue;
+    flex-direction: column;
+    
+}
+.central {
+    display: flex;
+    width: 120px;
+    height: 50px;
+
+
+}
+
+
+
+
+.fotinho {
+   
+    margin-left: -40px;
+
+}
+.pai{
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.meio{
+   height: 28px;
+   margin-top: 20px;
+   font-weight: bold;
+   color: black;
+}
+.modelo{
+    margin-top: -20px;
+    color: #717b84;
+}
+.canto {
+    font-size: 12px;
+    margin-left: 280px;
+    color: #717b84;
+}
+
+.fotinho2{
+   
+    width: 10px;
+    display: flex;
+    height: 80px;
+    width: 80px;
+}
+.pai2{
+    flex-direction: row;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    width: 210px;
+    
+}
+.meio2{
+    font-weight: bold;
+    color: black;
+    display: flex;
+    width: 1100px;
+    margin-left: 17px;
+    margin-top: 20px;
+    
+}
+footer {
+    display: flex;
+    background-color:rgba(154, 154, 154, 0.527);
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+}
