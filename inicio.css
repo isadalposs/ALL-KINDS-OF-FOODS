@@ -1,0 +1,283 @@
+
+header {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.logotipo {
+    margin-left: 20px;
+}
+.feijaot{
+width:100%;
+}
+.links {
+    display: flex;
+    gap: 8px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover  {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(250, 225, 148);
+    border-radius: 5px;
+}
+.search-container{
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+.container {
+    margin-left: -80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+.btn-buscar-top {
+    width: 20px!important;
+    height: 22px;
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+    cursor: pointer!important;
+    border: none;
+    transform: translateY(-50%);
+    padding: 0;
+    position: relative;
+    top: -27px;
+    left: 280px;
+}
+.btn-text-top {
+    background-color: #f5f6fa;
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 15px 50px 15px 30px;
+    border-radius: 20px;
+    width: 100%!important;
+    height: 22px;
+    font-weight: 300;
+    color: #8795a2;
+  }
+.titulozin {
+    margin-left: 35px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+img {
+    display: flex;
+    border-radius:10px;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+.bandeiras {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.bandeiras1 {
+    margin-left: 20px;
+}
+.bandeiras2 {
+    margin-left: 20px;
+}
+.bandeiras3 {
+    margin-left: 20px;
+}
+.bandeiras4 {
+    margin-left: 20px;
+}
+.bandeiras5 {
+    margin-left: 20px;
+}
+.bandeiras6 {
+    margin-left: 20px;
+}
+.bandeiras7 {
+    margin-left: 20px;
+}
+.bandeiras8 {
+    margin-left: 20px;
+}
+   
+
+.caixas {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+.caixa1 {
+    background-color: rgba(154, 154, 154, 0.527);
+    width: 550px;
+    height: 220px;
+    display: flex;
+    border-radius: 10px;
+    justify-content:baseline;
+    flex-direction: row;
+    margin-left: 30px;
+}
+
+.blocoTexto1{
+    display: flex;
+    flex-direction: column;
+}
+.blocoImagem1{
+    width: 100%;
+    
+}
+
+.textoc1 {
+    margin-top: 15px;
+    margin-left: 15px;
+    flex-direction: column;
+    font-weight:bold;
+    width: 230px;
+}
+.preco {
+    text-decoration:line-through;
+    color: gray;
+    margin-left: 20px;
+}
+
+.precinhos {
+    display:flex;
+    flex-direction: row;
+    margin-top: 30px;
+    align-items: flex-start;
+    gap: 10px;
+    
+}
+.texto2c1 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.imagem1 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.caixa2 {
+        background-color: rgba(154, 154, 154, 0.527);
+        width: 550px;
+        height: 220px;
+        display: flex;
+        border-radius: 10px;
+        justify-content:baseline;
+        flex-direction: row;
+        margin-left: 30px;
+}
+
+.ridy{
+    display: flex;
+    width: 200px;
+}
+
+.promocoes {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 12px;
+}
+
+.textoc2 {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+h3 {
+    font-size: 20px;
+}
+.pf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Cormorant SC', serif;
+   
+}
+.txtt {
+    color: gray;
+}
+.pratosfeitos {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 12px;
+}
+.textinhopequenininho {
+    display: flex;
+    margin-left: -140px;
+    margin-top: 0px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 12px;
+    width: 50%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    
+}
+.textoo {
+    color: grey;
+    font-size: 16px;
+}
+.prco {
+    font-size: larger;
+    margin-top: 30px;
+}
+.browiee {
+    margin-left: 30px;
+}
+.paidobrownie {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.brownie {
+   display: flex;
+   margin-left: 20px;
+   width: 50%;
+}
+.txt {
+    display: flex;
+    margin-top: 15px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 12px;
+    color: gray;
+}
+.precooo {
+    font-size: larger;
+    margin-top: 30px;
+}
+.feijaotropeiro {
+    width: 50%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    height: 20PX;
+
+}
+footer {
+    display: flex;
+    background-color:rgba(154, 154, 154, 0.527);
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+           
