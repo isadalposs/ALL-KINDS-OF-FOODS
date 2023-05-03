@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+  
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    justify-content: space-between;
+}
+.titulo {
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    height: 11%;
+}
+.allkindsoffoods {
+    background-color: white
+
+}
+
+.logotipo {
+    margin-left: -14px;
+    margin-top: 50px;
+}
+h1 {
+    margin-left: 35px;
+}
+.botoes{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+.inicio:hover{
+    background-color: rgb(250, 225, 148);
+    border-radius: 5px;
+}
+.cupons:hover{
+background-color: rgb(250, 225, 148);
+    border-radius: 5px;
+}
+.produto:hover{
+    background-color: rgb(250, 225, 148);
+    border-radius: 5px;
+}
+.quemsomos:hover{
+    background-color: rgb(250, 225, 148);
+    border-radius: 5px;
+}
+.faleconosco:hover{
+    background-color: rgb(250, 225, 148);
+    border-radius: 5px;
+}
+.search-container{
+    width: 490px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+.container {
+    margin-left: -80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .central{
+    justify-content: space-between; 
+    width: 11%;
+    height: 20%;
+    display: flex;
+    
+  }
+      
+  .btn-buscar-top {
+    width: 20px!important;
+    height: 30px;
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+    cursor: pointer!important;
+    border: none;
+    transform: translateY(-50%);
+    padding: 0;
+    position: relative;
+    top: -22px;
+    left: 208px;
+  }
+
+  .btn-text-top {
+    background-color: #f5f6fa;
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 15px 50px 15px 30px;
+    border-radius: 20px;
+    height: 52px;
+    width: 100%!important;
+    font-weight: 300;
+    color: #788896;
+  }
+
+.blocoPartes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+
+.parte1{
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.atendente{
+    border-top: 20px;
+    padding-left: 85px;
+    padding-top: 65px;
+
+}
+
+.tamanhoFormPai{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-right:50px;
+}
+
+.tamanhoForm{
+    width: 90%;
+    height: 90vh;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid aqua;
+}
+
+.parte2{
+    width: 60%;
+    height: 100vh;
+    border: 1px; color: aqua;
+    display: flex;
+    justify-content: center;
+    color: aqua;
+
+
+}
+
+input,textarea {
+    background-color: white;
+    border: 1px black solid;  
+} 
+
+fieldset{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color:  rgb(255, 188, 30);
+    
+}
+
+.btn {
+    --color: rgb(250, 225, );
+    --color2: rgb(10, 25, 30);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: .3px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+   }
+   
+   .btn::after, .btn::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+   }
+   
+   .btn::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover {
+    color: var(--color2);
+   }
+   
+   .btn:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+   }
+
+    #gi{
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 95%;
+    }
+    footer {
+        display: flex;
+        background-color:rgba(154, 154, 154, 0.527);
+        width: 100%;
+        height: 100px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    body{
+        height: 100%;
+    }
+   

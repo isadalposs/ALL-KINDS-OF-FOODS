@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cssFaleConosco.css">
+    <title></title>
+    
+</head>
+<body>
+    <header>
+        <a href="index.html"><div class="logotipo"> <img src="./imagens/lanche.png" height="83px"> </a> </div>
+        <div class="titulo"> 
+            <div class="allkindsoffoods"><h1>ALL KINDS OF FOODS</h1></div> <br>
+            
+            <div class="botoes"> 
+
+            <div class="inicio"> <a href="index.html"> INÍCIO </a> </div> 
+            <div class="cupons"> <a href="cupons.html"> CUPONS </a> </div>
+            <div class="produto"> <a href="produtos.html"> PRODUTOS </a> </div>
+            <div class="quemsomos"> <a href="quemsomos.html"> QUEM SOMOS </a> </div>
+            <div class="faleconosco"> <a href="faleconosco.html"> FALE CONOSCO </a> </div>
+            </div>
+
+        </div> 
+        <div class="container">
+            <form class="form-busca-site" action="busca.php">
+              <input class="btn-text-top" type="text" name="txtsearch" placeholder="Buscar">
+              <div><button class="btn-buscar-top" type="submit"></button></div>
+            </form>
+          </div>
+
+
+        <div class="central"> 
+            <img src="./imagens/usuario.png" height="40px">
+           <img src="./imagens/carrinho.png" height="40px">
+          </div>
+    <div class="links">
+            <div class="inicio" id="começo"></div>
+            <div class="cupons" id="começo"></div>
+            <div class="produtos" id="começo"></div>
+            <div class="quemsomos" id="começo"></div>
+            <div class="faleconosco" id="começo"></div>
+    </div>
+</header>
+     <main>
+        <div class="blocoPartes">
+            <div class="parte1">
+                <div class="atendente" ><img src="./imagens/atendente2.png" width="90%" height="60%"></div>
+            </div>
+            <div class="parte2">
+                <form class="tamanhoFormPai" method="POST" action="send.php">
+                    
+                    <fieldset>
+                    <!--textarea class="tamanhoForm" placeholder=></textarea>-->
+                    <input type="text" id="name" placeholder="Nome" class="textfield" size="5vh" style="width: 95%; height: 5vh;border-radius: 10px; border-color: transparent;" > <br> 
+                    <input type="text" id="Endereço" placeholder="Endereço" class="textField" style="width: 95%; height: 5vh; border-radius: 10px; border-color: transparent;"> <br>
+                    <input type="text" id="name" placeholder="Bairro" class="textfield"  style="width: 95%; height: 5vh;border-radius: 10px; border-color: transparent;"> <br>
+                    <input type="text" id="Celular" placeholder="Celular" class="textfield"   style="width: 95%; height: 5vh;border-radius: 10px; border-color: transparent"> <br>
+                    <input type="text" email id=" E-mail " placeholder="E-mail" class="textfield"  style="width: 95%; height: 5vh;border-radius: 10px; border-color: transparent;"> <br>
+                    <textarea type="text" id="msg" placeholder="Digite aqui sua mensagem" class="txtMsg"  style="width: 95%; height: 5vh;border-radius: 10px; font-family: Arial, Helvetica, sans-serif; border-color: transparent"></textarea> <br>
+                    <!--
+                    <input type="senha" id=" pass " class="textField" placeholder="senha"  style="width: 95%; height: 5vh;border-radius: 10px;><br><br>
+                    <input type="senha" id=" confpass "class=" textfield " placeholder="Confirmação de senha"  style="width: 95%; height: 5vh;border-radius: 10px;> <br><br>
+                    -->
+                    
+
+                    <div id="gi">
+                    <button class="btn"> Enviar
+                    </button>
+                    </div>
+
+                </fieldset>
+                </form>
+            </div>
+        </div>
+        <div>
+        
+        </div>
+
+
+
+
+
+    </main>
+    <footer>
+        <div class="footerr">
+    Reclame aqui: www.reclameaqui.com.br<br>
+    Endereço: R. Ari Barroso, 305 - Pres. Altino, Osasco - SP, 06216-901<br>
+    Número para contato: 11 994568769
+        </div>
+    </footer>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,310 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  justify-content:space-between;
+  flex-direction: row;
+  padding: 25px;
+  gap: 30px;
+}
+.titulo {
+  margin-left: -70px;
+  display: flex;
+  flex-direction: column;
+
+}
+.logotipo {
+  margin-left: 30px;
+}
+h1 {
+  margin-left: 35px;
+}
+.botoes{
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+.inicio:hover{
+  background-color: rgb(225, 193, 98);
+  border-radius: 5px;
+}
+.cupons:hover{
+  background-color: rgb(225, 193, 98);
+  border-radius: 5px;
+}
+.produto:hover{
+  background-color: rgb(225, 193, 98);
+  border-radius: 5px;
+}
+
+.quemsomos:hover{
+  background-color: rgb(225, 193, 98);
+  border-radius: 5px;
+}
+
+.faleconosco:hover{
+  background-color: rgb(225, 193, 98);
+  border-radius: 5px;
+}
+
+
+
+
+.search-container{
+  width: 490px;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  margin-left: -80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+    
+.btn-text-top {
+  background-color: #f5f6fa;
+  border: 1px solid rgba(255, 255, 255, .1);
+  padding: 15px 50px 15px 30px;
+  border-radius: 20px;
+  width: 100%!important;
+  height: 42px;
+  font-weight: 300;
+  color: #8795a2;
+}
+    
+.btn-buscar-top {
+  width: 20px!important;
+  height: 22px;
+  background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+  cursor: pointer!important;
+  border: none;
+  transform: translateY(-50%);
+  padding: 0;
+  position: relative;
+  top: -35px;
+  left: 280px;
+}
+
+.linksnav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.tamanho{
+  width: 80%;
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+h4{ display: flex table-row 1;
+}
+  
+.main {
+    display: grid;
+    width: 100%;
+    grid: template columns 3px;;
+    gap: 10px;
+ 
+    padding: 10px;
+    background-color: #f0f0f0;
+    text-align: center;
+    display: flex ;
+    flex-direction: row;
+     background-color:rgba(154, 154, 154, 0.527);
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     width: 100% ;
+     margin: 10%;
+}
+    
+
+.comidas{
+    display: flex;
+    width: 40% ;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-row: auto;
+    gap: 30px;
+    margin-left: 50px;
+  }
+  
+  .sushi, .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 450PX;
+    height: 200px;
+    border-radius: 3%;
+    background-color:rgba(154, 154, 154, 0.527);
+    gap: 20px;
+    padding: 7px;
+  }
+.filhosushiimagem, .card_img {
+  align-items: center;
+  display: flex;
+  border-radius: 3%;
+	border: 2px solid #ccc;
+	padding: 5px;
+  background-image: url(sushi.jpg);
+  height: 180px;
+  width: 400px;
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .feijoada{
+    display: flex;
+    flex-direction: row;
+    border-radius: 3%;
+    background-color:rgba(154, 154, 154, 0.527);
+    gap: 20px;
+    
+  }
+  .filhofeijoadaimagem{
+  align-items: center;
+  display: flex;
+
+  border-radius: 3%;
+	border: 2px solid #ccc;
+	padding: 5px;
+  background-image: url(feijoada.jpg);
+  height: 180px;
+  width: 400px;
+  background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  .chakaka{
+    display: flex;
+    flex-direction: row;
+    border-radius: 3%;
+    background-color:rgba(154, 154, 154, 0.527);
+    gap: 20px;
+  }
+  .filhochakakaimagem{
+  align-items: center;
+  display: flex;
+
+  border-radius: 3%;
+	border: 2px solid #ccc;
+	padding: 5px;
+  background-image: url(chakaka.jpg);
+  height: 180px;
+  width: 400px;
+  background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+ 
+  .comidas2{
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin-left: 30px;
+  }
+
+  .mac{
+    display: flex;
+    flex-direction:row ;
+    border-radius: 3%;
+    background-color:rgba(154, 154, 154, 0.527);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+    .macfilhoimagem{
+  align-items: center;
+  display: flex;
+
+  border-radius: 3%;
+	border: 2px solid #ccc;
+	padding: 5px;
+  background-image: url(sushi.jpg);
+  height: 190px;
+  width: 420px;
+  background-repeat: no-repeat;
+  background-size: cover;
+    }
+
+  .schinitzel{
+    display: flex;
+    flex-direction: row;
+    border-radius: 3%;
+    background-color:rgba(154, 154, 154, 0.527);
+    gap: 20px;
+  }
+  .filhoschinitzelimagem{
+    align-items: center;
+  display: flex;
+
+  border-radius: 3%;
+	border: 2px solid #ccc;
+	padding: 5px;
+  background-image: url(sch);
+  height: 180px;
+  width: 400px;
+  background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .pizza{
+    display: flex;
+    flex-direction: row;
+    border-radius: 3%;
+    background-color:rgba(154, 154, 154, 0.527);
+    gap: 20px;
+  }
+  .filhopizzaimagem{
+    align-items: center;
+  display: flex;
+ 
+  border-radius: 3%;
+	border: 2px solid #ccc;
+	padding: 5px;
+  background-image: url(pizza.jpg);
+  height: 180px;
+  width: 380px;
+  background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+  .linksnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  footer {
+    display: flex;
+    background-color:rgba(154, 154, 154, 0.527);
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.todes {
+  display: flex;
+  margin-left: -180px;
+}

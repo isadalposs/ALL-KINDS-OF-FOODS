@@ -7,12 +7,13 @@ header {
     height: 100px;
     align-items: center;
     justify-content: space-between;
-
+    margin-top: 35px;
 }
 .titulo {
     margin-left: -70px;
     display: flex;
     flex-direction: column;
+
 
 }
 .logotipo {

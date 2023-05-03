@@ -21,9 +21,23 @@ a {
     text-decoration: none;
     color: black;
 }
-a:hover  {
-    text-decoration: none;
-    color: black;
+.inicio:hover{
+    background-color: rgb(250, 225, 148);
+    border-radius: 5px;
+}
+.cupons:hover{
+background-color: rgb(250, 225, 148);
+    border-radius: 5px;
+}
+.produtos:hover{
+    background-color: rgb(250, 225, 148);
+    border-radius: 5px;
+}
+.quemsomos:hover{
+    background-color: rgb(250, 225, 148);
+    border-radius: 5px;
+}
+.faleconosco:hover{
     background-color: rgb(250, 225, 148);
     border-radius: 5px;
 }
